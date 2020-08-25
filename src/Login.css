@@ -1,0 +1,119 @@
+h4{
+    padding: 4px 0;
+    color: accent;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#divBody{
+    z-index: 15;
+    /*position: 50px;*/
+    background: white;
+    width: 500px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(black, .1);
+    box-sizing: border-box;
+    margin: 0 auto 0;
+    overflow: hidden;
+    padding: 50px;
+    
+}
+
+button{
+    outline: none;
+    background: accent;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+input{   
+    display: block;
+    background: rgba(black, 0.1);   
+    width: 100%;
+    border: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color:black;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    transition: 0.3s ease;
+}
+
+label {
+    display: block;
+    margin: 0 0 10px;
+    color:black;
+    font-size: 12px;
+    font-weight: semibold;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin: 0 0 40px;
+    background-color: black; 
+    width: auto;
+    position: relative;
+    margin: 5px auto 10px;
+    padding: 50px;
+    height: 150px;
+}
+
+.body{
+    z-index: 15;
+    position: relative;
+    background: rgba(173, 159, 159, 0.445);
+    width: max-width;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(black, .1);
+    box-sizing: border-box;
+    margin: 100px auto 10px;
+    overflow: hidden;
+}
+
+body{
+  /* background: linear-gradient(45deg,  rgba(227, 230, 233, 0.8) 0%,rgba(173, 159, 159, 0.445) 100%); */
+  background: rgba(173, 159, 159, 0.445);
+  color:black;
+  /* font-family: base-font-family; */
+  font-size: base-font-size;
+  line-height: base-line-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.divinicioSeccion{
+    z-index: 10;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transform-origin: center;
+    transform: translate(0, -25%) scale(0);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}

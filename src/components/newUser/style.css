@@ -1,0 +1,37 @@
+label{
+    display: block;
+    text-align: left;
+}
+
+.admin{
+    /* width: 1660px; */
+    padding: 5rem;
+    /* margin-top: -400px; */
+    overflow: -moz-hidden-unscrollable;
+    margin-left: 10%;
+}
+
+.fixed_header{
+    height: 50px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: auto;
+  overflow: visible;
+  margin-left: initial;
+}
+
+.fixed_header thead tr {
+   display: block;
+
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 10px;
+  text-align: left;
+  width: 270px;
+}
